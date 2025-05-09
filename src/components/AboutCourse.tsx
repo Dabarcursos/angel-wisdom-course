@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const AboutCourse = () => {
   const handleCheckout = () => {
-    window.location.href = 'https://pay.kiwify.com.br/YDBi87q';
+    window.location.href = 'https://pay.kiwify.com.br/e4BD1zv';
   };
 
   return (
