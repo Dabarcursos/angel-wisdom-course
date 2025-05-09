@@ -26,7 +26,7 @@ const HeroSection = () => {
           <Button 
             size="lg" 
             className="bg-angel-gold hover:bg-amber-600 text-black font-bold px-8 py-6"
-            onClick={() => window.location.href = 'https://pay.kiwify.com.br/1ADQL7D'}
+            onClick={() => window.location.href = 'https://pay.kiwify.com.br/fEeBLrL'}
           >
             Quero Me Inscrever
           </Button>

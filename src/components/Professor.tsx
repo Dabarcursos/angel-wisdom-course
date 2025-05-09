@@ -1,5 +1,10 @@
+
 import { Button } from "@/components/ui/button";
 const Professor = () => {
+  const handleCheckout = () => {
+    window.location.href = 'https://pay.kiwify.com.br/fEeBLrL';
+  };
+  
   return <section id="professor" className="py-16 bg-angel-light">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
@@ -40,7 +45,11 @@ const Professor = () => {
               </p>
             </div>
             
-            <Button size="lg" className="bg-angel-gold hover:bg-amber-600 text-black font-bold">
+            <Button 
+              size="lg" 
+              className="bg-angel-gold hover:bg-amber-600 text-black font-bold" 
+              onClick={handleCheckout}
+            >
               Quero aprender sobre os anjos agora!
             </Button>
           </div>

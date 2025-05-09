@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   const handleCheckout = () => {
-    window.location.href = 'https://pay.kiwify.com.br/1ADQL7D';
+    window.location.href = 'https://pay.kiwify.com.br/fEeBLrL';
   };
 
   return (

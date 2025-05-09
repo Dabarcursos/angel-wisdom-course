@@ -3,6 +3,10 @@ import { Bookmark, Clock, Award, School } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const AboutCourse = () => {
+  const handleCheckout = () => {
+    window.location.href = 'https://pay.kiwify.com.br/fEeBLrL';
+  };
+
   return (
     <section id="about" className="py-16 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -54,7 +58,11 @@ const AboutCourse = () => {
               </div>
             </div>
             
-            <Button size="lg" className="bg-angel-gold hover:bg-amber-600 text-black font-bold">
+            <Button 
+              size="lg" 
+              className="bg-angel-gold hover:bg-amber-600 text-black font-bold"
+              onClick={handleCheckout}
+            >
               Quero Me Inscrever
             </Button>
           </div>
