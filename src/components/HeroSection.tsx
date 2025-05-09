@@ -1,16 +1,10 @@
-
 import { Button } from "@/components/ui/button";
-
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center z-0" 
-        style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2800&q=80')" 
-        }}
-      />
+      <div className="absolute inset-0 bg-cover bg-center z-0" style={{
+      backgroundImage: "url('https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2800&q=80')"
+    }} />
       
       {/* Overlay */}
       <div className="absolute inset-0 bg-angel-gradient z-10"></div>
@@ -19,7 +13,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20 text-white text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-6 leading-tight">
           Descubra o Mundo Oculto dos Anjos: <br />
-          <span className="text-angel-gold italic">Um Curso Completo de Angeologia</span>
+          <span className="text-angel-gold italic">Um Curso de Angeologia</span>
         </h1>
         
         <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto">
@@ -48,8 +42,6 @@ const HeroSection = () => {
           </span>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
