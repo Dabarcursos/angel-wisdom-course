@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 
 const CallToAction = () => {
   const handleCheckout = () => {
-    window.location.href = 'https://pay.kiwify.com.br/fEeBLrL';
+    window.location.href = 'https://pay.kiwify.com.br/YDBi87q';
   };
 
   return (

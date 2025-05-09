@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 const Professor = () => {
   const handleCheckout = () => {
-    window.location.href = 'https://pay.kiwify.com.br/fEeBLrL';
+    window.location.href = 'https://pay.kiwify.com.br/YDBi87q';
   };
   
   return <section id="professor" className="py-16 bg-angel-light">
