@@ -1,10 +1,7 @@
-
 import { CheckCircle } from "lucide-react";
 import { Card } from "@/components/ui/card";
-
 const CourseOverview = () => {
-  return (
-    <section id="overview" className="py-16 bg-angel-muted">
+  return <section id="overview" className="py-16 bg-angel-muted">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl md:text-4xl font-serif font-bold mb-3 text-center text-angel-primary">
           O Que Você Vai Aprender
@@ -12,11 +9,7 @@ const CourseOverview = () => {
         
         <div className="w-24 h-1 bg-angel-gold mx-auto mb-8"></div>
         
-        <p className="text-lg text-center max-w-3xl mx-auto mb-12">
-          São 22 aulas detalhadas sobre o mundo angélico, sem necessidade de formação prévia, 
-          com base na Suma Teológica de Santo Tomás de Aquino (Parte I, q. 50–63).
-          Ideal para leigos, católicos devotos e todos interessados em espiritualidade.
-        </p>
+        <p className="text-lg text-center max-w-3xl mx-auto mb-12">São 22 aulas detalhadas sobre o mundo angélico, sem necessidade de formação prévia, com base na Angeologia de Santo Tomás de Aquino (Parte I, q. 50–63), na doutrina da Igreja católica.  Ideal para leigos, católicos devotos e todos interessados em espiritualidade.</p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
           {/* Módulo 1 */}
@@ -108,8 +101,6 @@ const CourseOverview = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default CourseOverview;

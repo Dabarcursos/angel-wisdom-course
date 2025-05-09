@@ -1,9 +1,6 @@
-
 import { Button } from "@/components/ui/button";
-
 const Professor = () => {
-  return (
-    <section id="professor" className="py-16 bg-angel-light">
+  return <section id="professor" className="py-16 bg-angel-light">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-serif font-bold mb-3 text-angel-primary">
@@ -15,11 +12,7 @@ const Professor = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/3 flex justify-center">
             <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-angel-gold shadow-lg">
-              <img 
-                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
-                alt="Professor Edinei Ouriques da Silva" 
-                className="w-full h-full object-cover"
-              />
+              <img alt="Professor Edinei Ouriques da Silva" className="w-full h-full object-cover" src="/lovable-uploads/7e6de7e5-d4e6-4e4c-8c2c-5b9ce6568f7e.jpg" />
             </div>
           </div>
           
@@ -28,11 +21,7 @@ const Professor = () => {
             <p className="text-lg mb-4 font-medium">Teólogo, Filósofo e Professor</p>
             
             <div className="space-y-4 mb-8">
-              <p>
-                Edinei Ouriques da Silva é teólogo, filósofo, professor e palestrante, com mais de 15 anos de experiência em formação cristã. 
-                Especialista em Espiritualidade, Sagrada Escritura e Tradição da Igreja, Edinei atua como professor de Antigo e 
-                Novo Testamento na Escola de Teologia para Leigos da Diocese de Tubarão (SC), onde já formou centenas de alunos.
-              </p>
+              <p>Edinei Ouriques da Silva é teólogo, filósofo, professor e palestrante, com mais de 15 anos de experiência em formação cristã. Edinei atua como professor de Antigo e Novo Testamento na Escola de Teologia para Leigos da Diocese de Tubarão (SC), e no curso bíblico católico onde já formou centenas de alunos.</p>
               
               <p>
                 Com uma didática clara e acessível, Edinei tem o dom de traduzir temas profundos da fé católica de forma simples 
@@ -57,8 +46,6 @@ const Professor = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Professor;
