@@ -3,6 +3,10 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
 const CallToAction = () => {
+  const handleCheckout = () => {
+    window.location.href = 'https://pay.kiwify.com.br/1ADQL7D';
+  };
+
   return (
     <section className="py-16 bg-angel-primary text-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -26,7 +30,11 @@ const CallToAction = () => {
           </Badge>
         </div>
         
-        <Button size="lg" className="bg-angel-gold hover:bg-amber-600 text-black font-bold px-8 py-6">
+        <Button 
+          size="lg" 
+          className="bg-angel-gold hover:bg-amber-600 text-black font-bold px-8 py-6"
+          onClick={handleCheckout}
+        >
           Quero aprender sobre os anjos agora!
         </Button>
       </div>

@@ -10,6 +10,10 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleCheckout = () => {
+    window.location.href = 'https://pay.kiwify.com.br/1ADQL7D';
+  };
+
   return (
     <nav className="bg-angel-primary/95 text-white sticky top-0 z-50 shadow-md">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -26,7 +30,10 @@ const Navbar = () => {
               <a href="#about" className="hover:text-angel-gold transition-colors">Sobre</a>
               <a href="#professor" className="hover:text-angel-gold transition-colors">Professor</a>
               <a href="#faq" className="hover:text-angel-gold transition-colors">FAQ</a>
-              <Button className="bg-angel-gold hover:bg-amber-600 text-black ml-4">
+              <Button 
+                className="bg-angel-gold hover:bg-amber-600 text-black ml-4"
+                onClick={handleCheckout}
+              >
                 Inscrever-se
               </Button>
             </div>
@@ -75,7 +82,10 @@ const Navbar = () => {
             >
               FAQ
             </a>
-            <Button className="bg-angel-gold hover:bg-amber-600 text-black w-full mt-2">
+            <Button 
+              className="bg-angel-gold hover:bg-amber-600 text-black w-full mt-2"
+              onClick={handleCheckout}
+            >
               Inscrever-se
             </Button>
           </div>

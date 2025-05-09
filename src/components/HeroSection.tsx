@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 const HeroSection = () => {
   return <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
@@ -22,7 +23,11 @@ const HeroSection = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-          <Button size="lg" className="bg-angel-gold hover:bg-amber-600 text-black font-bold px-8 py-6">
+          <Button 
+            size="lg" 
+            className="bg-angel-gold hover:bg-amber-600 text-black font-bold px-8 py-6"
+            onClick={() => window.location.href = 'https://pay.kiwify.com.br/1ADQL7D'}
+          >
             Quero Me Inscrever
           </Button>
         </div>
