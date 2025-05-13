@@ -1,4 +1,5 @@
 
+
 import { Button } from "@/components/ui/button";
 const HeroSection = () => {
   return <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
@@ -26,7 +27,7 @@ const HeroSection = () => {
           <Button 
             size="lg" 
             className="bg-angel-gold hover:bg-amber-600 text-black font-bold px-8 py-6"
-            onClick={() => window.location.href = 'https://pay.herospark.com/curso-de-angeologia-423506'}
+            onClick={() => window.location.href = 'https://pay.kiwify.com.br/1ADQL7D'}
           >
             Quero Me Inscrever
           </Button>

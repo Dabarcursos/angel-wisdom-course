@@ -1,10 +1,11 @@
 
+
 import { Bookmark, Clock, Award, School } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const AboutCourse = () => {
   const handleCheckout = () => {
-    window.location.href = 'https://pay.herospark.com/curso-de-angeologia-423506';
+    window.location.href = 'https://pay.kiwify.com.br/1ADQL7D';
   };
 
   return (
