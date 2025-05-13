@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 
 const CallToAction = () => {
   const handleCheckout = () => {
-    window.location.href = 'https://pay.kiwify.com.br/e4BD1zv';
+    window.location.href = 'https://pay.herospark.com/curso-de-angeologia-423506';
   };
 
   return (
