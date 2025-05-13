@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 const Professor = () => {
   const handleCheckout = () => {
-    window.location.href = 'https://pay.herospark.com/curso-de-angeologia-423506';
+    window.location.href = 'https://pay.kiwify.com.br/e4BD1zv';
   };
   
   return <section id="professor" className="py-16 bg-angel-light">
