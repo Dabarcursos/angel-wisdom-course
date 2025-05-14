@@ -1,9 +1,10 @@
+
 import { Bookmark, Clock, Award, School } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const AboutCourse = () => {
   const handleCheckout = () => {
-    window.location.href = 'https://chat.whatsapp.com/KWhHkjbu8BdEZbjPtsv6wq';
+    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSeRmTS0eVtLNQ6QljMcy1Vx3RfKFCuu9tEWKWEIWwCac4CO_g/viewform?usp=sharing&ouid=107269213125400105672';
   };
 
   return (
