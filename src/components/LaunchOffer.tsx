@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const LaunchOffer = () => {
   const handleCheckout = () => {
-    window.location.href = 'https://pay.kiwify.com.br/1ADQL7D';
+    window.location.href = 'https://chat.whatsapp.com/KWhHkjbu8BdEZbjPtsv6wq';
   };
 
   return (

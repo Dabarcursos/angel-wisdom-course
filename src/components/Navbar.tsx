@@ -1,5 +1,4 @@
 
-
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -12,7 +11,7 @@ const Navbar = () => {
   };
 
   const handleCheckout = () => {
-    window.location.href = 'https://pay.kiwify.com.br/1ADQL7D';
+    window.location.href = 'https://chat.whatsapp.com/KWhHkjbu8BdEZbjPtsv6wq';
   };
 
   return (
